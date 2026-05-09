@@ -25,7 +25,7 @@ Upload a short video clip to the Gradio web interface and get instant action pre
 
 | Dancing | Fighting | Walking |
 |---|---|---|
-| ![Dancing Sample](results/sample_dancing.png) | ![Fighting Sample](results/sample_fighting.jpg) | ![Walking Sample](results/sample_walking.jpg) |
+| ![Dancing Sample](results/sample_dancing.png) | ![Fighting Sample](results/sample_fighting.jpg) | ![Walking Sample](results/sample_walking.png) |
 | NSU Pahela Baishakh Flashmob | July 2024 Uprising Footage | Dhaka Gulistan Street |
 
 ---
