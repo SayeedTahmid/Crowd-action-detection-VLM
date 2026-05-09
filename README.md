@@ -289,5 +289,7 @@ This project is for academic/educational purposes only. Video data used for trai
 
 ## Author
 
-**University Project — Action Detection using VLM**  
-Department of Computer Science
+**Syed Tahmid Manzoor**  
+Department of Computer Science and Engineering  
+North South University  
+GitHub: [SayeedTahmid](https://github.com/SayeedTahmid/Crowd-action-detection-VLM)
