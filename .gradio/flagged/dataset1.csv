@@ -1,0 +1,3 @@
+Upload crowd video clip,Detected Action,timestamp
+.gradio\flagged\Upload crowd video clip\f510ded00602f5b9fab5\test_fight3.mp4,"{""label"": ""dancing"", ""confidences"": [{""label"": ""dancing"", ""confidence"": 0.400554358959198}, {""label"": ""walking"", ""confidence"": 0.310059130191803}, {""label"": ""fighting"", ""confidence"": 0.28938648104667664}]}",2026-05-10 02:35:26.631638
+.gradio\flagged\Upload crowd video clip\5703d83814ca7cd990ee\test_fight.mp4,"{""label"": ""walking"", ""confidences"": [{""label"": ""walking"", ""confidence"": 0.41198286414146423}, {""label"": ""fighting"", ""confidence"": 0.31467053294181824}, {""label"": ""dancing"", ""confidence"": 0.27334660291671753}]}",2026-05-10 02:36:53.384119
