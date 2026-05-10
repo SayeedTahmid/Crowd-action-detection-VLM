@@ -1,3 +1,6 @@
+import os
+os.system("pip install git+https://github.com/openai/CLIP.git")
+
 import clip
 import torch
 import torch.nn as nn
@@ -6,10 +9,9 @@ import cv2
 import numpy as np
 from PIL import Image
 import tempfile
-import os
 
 CLASSES = ["dancing", "fighting", "walking"]
-BASE_DIR = "E:/action_detection"
+BASE_DIR = "."
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 class CLIPClassifier(nn.Module):
@@ -34,7 +36,7 @@ class CLIPClassifier(nn.Module):
 print("Loading model...")
 clip_model, preprocess = clip.load("ViT-B/32", device=DEVICE)
 model = CLIPClassifier(clip_model, num_classes=3).to(DEVICE)
-model.load_state_dict(torch.load(f"{BASE_DIR}/models/best_model.pth"))
+model.load_state_dict(torch.load(f"{BASE_DIR}/models/best_model.pth", map_location=torch.device('cpu')))
 model.eval()
 print("Model ready!")
 
@@ -79,4 +81,4 @@ demo = gr.Interface(
     theme=gr.themes.Soft()
 )
 
-demo.launch(share=False, max_file_size="500mb")
+demo.launch(share=True, max_file_size="500mb")
